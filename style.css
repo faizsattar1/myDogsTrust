@@ -1,0 +1,22 @@
+body {
+  background-color: cadetblue;
+}
+.card {
+  width: 300px;
+  height: 400;
+  padding: 50px;
+  margin: 50px;
+  background-color: blueviolet;
+}
+.dogPic {
+  max-width: 200px;
+  display: block;
+}
+.adopt {
+  width: 50px;
+  height: 50px;
+}
+
+#cardholder {
+  display: flex;
+}
