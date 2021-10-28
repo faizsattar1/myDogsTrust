@@ -34,7 +34,7 @@ for(let i=0;i<dogs.length;i++){
     let dogPic = document.createElement("img")
     dogPic.classList.add("dogPic")
     card.appendChild(dogPic)
-    dogPic.src=dogs[i].picture + ".jpg"
+    dogPic.src=dogs[i].picture
 
     let adopt= document.createElement("button")
     adopt.innerHTML= "Adopt now"
